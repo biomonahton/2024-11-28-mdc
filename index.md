@@ -315,7 +315,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "incubator" %}
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScVUGJPLwGORN6e7kHSGZODFLkX0qz4CKShC8ErRchwewttig/viewform?usp=sf_link">Pre-workshop Survey</a></p>
-<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfDbvgY06qONN_ySWiE2MiW0R-0M-gigI_zlUSxTIvWdiKAMw/viewform?usp=sf_link">Post-workshop Survey</a></p>
+<p><a href="https://survey.mdc-berlin.de/875143?lang=en">Post-workshop Survey</a></p>
 {% elsif site.incubator_pre_survey or site.incubator_post_survey %}
 <div class="alert alert-danger">
 WARNING: you have defined custom pre- and/or post-survey links for
@@ -327,7 +327,7 @@ change the value of `carpentry` to `incubator`.
 </div>
 {% else %}
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScVUGJPLwGORN6e7kHSGZODFLkX0qz4CKShC8ErRchwewttig/viewform?usp=sf_link">Pre-workshop Survey</a></p>
-<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfDbvgY06qONN_ySWiE2MiW0R-0M-gigI_zlUSxTIvWdiKAMw/viewform?usp=sf_link">Post-workshop Survey</a></p>
+<p><a href="https://survey.mdc-berlin.de/875143?lang=en">Post-workshop Survey</a></p>
 {% endif %}
 
 <hr/>
